@@ -1,0 +1,156 @@
+    <!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Solarys</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa&family=Kanit:ital@1&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                width: 1350px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Changa', sans-serif;
+                background-color:#9399a3;
+            }
+            nav {
+                margin-left: 270px;
+            }
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            nav li {
+                display: inline-block;
+                margin-left: 70px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                position: relative;
+            }
+            nav a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            nav a:hover {
+                padding: 5px;
+                border-radius: 10px;
+                color:#d1d1d1;
+                background-color:#d1ab24;
+                transition: all ease-in-out 250ms;
+            }
+            header {
+                background-color:#000000;
+            }
+            header::after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            a:link {
+                text-decoration: none;
+            }
+            .logo {
+                background-image: url(space_bg.jpg);
+                height: 150px;
+            }
+            .logotext {
+                font-family: 'Kanit', sans-serif;
+                padding: 55px;
+                margin-left: 567px;
+                color:#ffffff;
+            }
+            .earthtitle {
+                font-family: 'Kanit', sans-serif;
+                text-align: center;
+            }
+            .row1 {
+                display: flex;
+                flex-direction: row;
+            }
+            .row2 {
+                display: flex;
+                flex-direction: row;
+            }
+            .earthinfo1 {
+                border-radius: 10px;
+                margin-left: 90px;
+                margin-right: 565px;
+                padding-left: 20px;
+                padding-bottom: 50px;
+                padding-right: 20px;
+                padding-top: 55px;
+                background-color: #000000;
+                color:#ffffff;
+                font-size: 20px;
+                text-align: left;
+                position: absolute;
+            }
+            .earthimage {
+                width: 365px;
+                height: 290px;
+                margin-top: 20px;
+                margin-right: 90px;
+                border-radius: 10px;
+                margin-left: 875px;
+            }
+            .earthinfo2 {
+                border-radius: 10px;
+                margin-left: 90px;
+                margin-right: 110px;
+                padding-left: 20px;
+                padding-bottom: 50px;
+                padding-right: 20px;
+                padding-top: 50px;
+                background-color: #000000;
+                color:#ffffff;
+                font-size: 21px;
+                text-align: left;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo"><h1 class="logotext">Solarys</h1></div>
+        <header>
+            <div class="topnav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="mercury.html">Mercury</a></li>
+                        <li><a href="venus.html">Venus</a></li>
+                        <li><a href="earth.html">Earth</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1 class="earthtitle">Earth</h1>
+        <div class="row1">
+            <p class="earthinfo1">
+                Earth, our home planet, is the third planet in our solar system.
+                It is a rocky, terrestrial planet covered in mountains, valleys, canyons, plains, and much more.
+                It's a special planet because 70% of its surface is covered by water.
+                We are able to live on Earth because of the abundance of water.
+                It is also found within the perfect distance from the sun to be habitable.
+                This area is called the Goldilocks zone.
+            </p>
+            <img class="earthimage" alt="earthimage" src="3.png">
+        </div>
+        <div class="row2">
+            <p class="earthinfo2">
+                Its atmosphere is composed mostly of nitrogen and oxygen that we can breathe.
+                It is divided by into five layers (troposphere, stratosphere, mesosphere, thermosphere, exosphere) based on temperature.
+                The atmosphere protects us from incoming meteoroids, because it disintegerates them before they hit the surface.
+            </p>
+        </div>
+    </body>
+</html>

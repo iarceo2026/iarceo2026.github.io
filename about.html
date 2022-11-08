@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Solarys</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa&family=Kanit:ital@1&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                width: 1350px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Changa', sans-serif;
+                background-color:#9399a3;
+            }
+            nav {
+                margin-left: 270px;
+            }
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            nav li {
+                display: inline-block;
+                margin-left: 70px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                position: relative;
+            }
+            nav a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            nav a:hover {
+                padding: 5px;
+                border-radius: 10px;
+                color:#d1d1d1;
+                background-color:#d1ab24;
+                transition: all ease-in-out 250ms;
+            }
+            header {
+                background-color:#000000;
+            }
+            header::after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            a:link {
+                text-decoration: none;
+            }
+            .logo {
+                background-image: url(space_bg.jpg);
+                height: 150px;
+            }
+            .logotext {
+                font-family: 'Kanit', sans-serif;
+                padding: 55px;
+                margin-left: 567px;
+                color:#ffffff;
+            }
+            .infotitle {
+                font-family: 'Kanit', sans-serif;
+                text-align: center;
+            }
+            .info {
+                display: flex;
+                flex-direction: row;
+            }
+            .infotext {
+                background-color:#000000;
+                color:#ffffff;
+                margin-top: 0px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 185px;
+                padding-bottom: 180px;
+                font-size: 25px;
+                border-radius: 10px;
+                margin-right: 500px;
+                margin-left: 90px;
+                position: absolute;
+            }
+            .pic {
+                width: 500px;
+                height: 500px;
+                margin-left: auto;
+                margin-right: 90px;
+                margin-bottom: 30px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo"><h1 class="logotext">Solarys</h1></div>
+        <header>
+            <div class="topnav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="mercury.html">Mercury</a></li>
+                        <li><a href="venus.html">Venus</a></li>
+                        <li><a href="earth.html">Earth</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1 class="infotitle">About Me</h1>
+        <div class="info">
+            <p class="infotext">
+                Hi! I am Ivan Dale Q. Arceo from 9-Samat. <br>
+                I was born on April 18, 2008. <br>
+                I have been interested in space ever since I was a child. 
+            </p>
+            <img class="pic" alt="pic" src="4.jpg">
+        </div>
+    </body>
+</html>

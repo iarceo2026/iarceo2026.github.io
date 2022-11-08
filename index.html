@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Solarys</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa&family=Kanit:ital@1&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                width: 1350px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Changa', sans-serif;
+                background-color:#9399a3;
+            }
+            nav {
+                margin-left: 270px;
+            }
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            nav li {
+                display: inline-block;
+                margin-left: 70px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                position: relative;
+            }
+            nav a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            nav a:hover {
+                padding: 5px;
+                border-radius: 10px;
+                color:#d1d1d1;
+                background-color:#d1ab24;
+                transition: all ease-in-out 250ms;
+            }
+            header {
+                background-color:#000000;
+            }
+            header::after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            a:link {
+                text-decoration: none;
+            }
+            .logo {
+                background-image: url(space_bg.jpg);
+                height: 150px;
+            }
+            .logotext {
+                font-family: 'Kanit', sans-serif;
+                padding: 55px;
+                margin-left: 567px;
+                color:#ffffff;
+            }
+            .row1 {
+                display: flex;
+                flex-direction: row;
+            }
+            .mercurytext {
+                font-size: 40px;
+                color:#000000;
+                font-family: 'Kanit', sans-serif;
+                margin-left: 300px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .mercuryimage {
+                width: 550px;
+                height: 470px;
+                margin-left: 90px;
+                border-radius: 10px;
+            }
+            .mercuryimage:hover {
+                opacity: 0.8;
+                transition: all ease-in-out 250ms;
+            }
+            .venusimage {
+                width: 550px;
+                height: 470px;
+                margin-left: 60px;
+                border-radius: 10px;
+            }
+            .venustext {
+                font-size: 40px;
+                color:#000000;
+                font-family: 'Kanit', sans-serif;
+                margin-left: 285px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .venusimage:hover {
+                opacity: 0.8;
+                transition: all ease-in-out 250ms;
+            }
+            .earthimage {
+                width: 591px;
+                height: 470px;
+                margin-left: 370px;
+                border-radius: 10px;
+            }
+            .earthtext {
+                font-size: 40px;
+                color:#000000;
+                font-family: 'Kanit', sans-serif;
+                margin-left: 620px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .earthimage:hover {
+                opacity: 0.8;
+                transition: all ease-in-out 250ms;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo"><h1 class="logotext">Solarys</h1></div>
+        <header>
+            <div class="topnav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="mercury.html">Mercury</a></li>
+                        <li><a href="venus.html">Venus</a></li>
+                        <li><a href="earth.html">Earth</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="row1">
+            <a href="mercury.html">
+                <div class="mercury">
+                    <h1 class="mercurytext">Mercury</h1>
+                    <img class="mercuryimage" alt="mercuryimage" src="1.png">
+                </div>
+            </a>
+            <a href="venus.html">
+                <div class="venus">
+                    <h1 class="venustext">Venus</h1>
+                    <img class="venusimage" alt="venusimage" src="2.png">
+                </div>
+            </a>
+        </div>
+        <div class="row2">
+            <a href="earth.html">
+                <h1 class="earthtext">Earth</h1>
+                <img class="earthimage" alt="earthimage" src="3.png">
+            </a>
+        </div>
+    </body>
+</html>
